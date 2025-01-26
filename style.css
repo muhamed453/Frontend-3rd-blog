@@ -1,0 +1,89 @@
+body{
+    background: hsl(47,88%,63%);
+    display: grid;
+    place-items: center;
+    height: auto;
+}
+#blog-div{
+    width: 20rem;
+    height: 30rem;
+    background: white;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 0.4rem 0.4rem;
+    display: grid;
+    place-items: center
+}
+#div2{
+    width: 85%;
+    height: auto;
+}
+#image{
+    width: 100%;
+    height: auto;
+    padding-top: 3px;
+}
+#yellow-par{
+    background: hsl(47,88%,63%);
+    width: 65px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    font-weight: 800;
+    border-radius: 3px;
+}
+#p1{
+    color: hsl(0,0%,42%);
+    font-weight: 500;
+}
+#h5{
+    color: hsl(0,0%,7%);
+}
+#h3{
+    font-weight: 1000;
+    font-size: 23px;
+    transition-duration: 0.2s;
+}
+#h3:hover{
+    color: hsl(47,88%,63%);
+    cursor: pointer;
+}
+#image2{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 50%;
+}
+footer{
+    margin-top: auto;
+}
+#h42{
+    margin: 10px;
+    font-weight: 800;
+    display: inline-block ;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 80px; /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+}
+
+.details {
+  margin-left: 10px; /* Add spacing between image and text */
+}
+@media(min-width: 500px){
+    #h3{
+     font-size: 17px;
+    }
+    #p1{
+    font-size: 13px;
+    }
+    #yellow-par{
+        font-size: 12px;
+    }
+}

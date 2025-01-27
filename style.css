@@ -5,8 +5,8 @@ body{
     height: auto;
 }
 #blog-div{
-    width: 20rem;
-    height: 30rem;
+    width: 25rem;
+    height: 35rem;
     background: white;
     border-radius: 1rem;
     border: 1px solid black;
@@ -39,12 +39,12 @@ body{
 #h5{
     color: hsl(0,0%,7%);
 }
-#h3{
+#h1{
     font-weight: 1000;
     font-size: 23px;
     transition-duration: 0.2s;
 }
-#h3:hover{
+#h1:hover{
     color: hsl(47,88%,63%);
     cursor: pointer;
 }
